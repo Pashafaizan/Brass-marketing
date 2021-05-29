@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+flex-direction: column;
+  text-align: center;
+}
+best_board{
+  text-align: center;
+  height: 90px;
+  position: absolute;
+  
+  /* top:-80px !important; */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.card_view{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

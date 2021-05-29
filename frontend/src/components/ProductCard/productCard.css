@@ -1,0 +1,28 @@
+.proudct_main_container{
+height: 600px;
+width: 100%;
+background-color: aquamarine;
+z-index: 100;
+}
+
+.proudct_container{
+    display: flex;
+    
+    width:400px !important;
+    height:400px;
+    background-color: beige;
+    border:20px solid red;
+}
+
+
+.product_img {
+    height: 200px;
+    width:200px;
+    background-color: black;
+}
+
+.product_img  img{
+ height: 200px;
+ width: 200px;
+ 
+}

@@ -1,0 +1,66 @@
+.slider{
+  top:76px !important;
+height: 60vh;
+width:100%;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+display: flex;
+align-items: center;
+ margin-top: -10px !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide{
+
+min-width: 100vw;
+height: 100%;
+width: 100%;
+overflow: hidden;
+position: relative;
+transition: all ease;
+}
+/* .home_container{
+  margin-top:65px;
+}
+*/
+.home_image {
+  
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -120px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+
+} 
+
+
+.go-left{
+  position: absolute;
+  top: 50%;
+  left:10px;
+  transform:translateY(-50%) ;
+ /* width: 5%; */
+ /* height: 80%; */
+ background-color: white;
+ outline :none;
+ border:none;
+ 
+
+
+}
+
+
+.go-right{
+  position: absolute;
+  top: 50%;
+  right:10px;
+  transform:translateY(-50%) ;
+ /* width: 5%; */
+
+ background-color: whinonete;
+ outline :none;
+ border:none
+}
