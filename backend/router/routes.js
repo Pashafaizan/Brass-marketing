@@ -1,12 +1,12 @@
 const express = require("express");
 const router = express.Router();
 
-const userService = require("../app/controlers/userService");
+const userController = require("../app/controlers/userController");
 
-router.post("/form", userService.createForm);
-router.post("/upload", userService.uploadFile);
-router.get("/list", userService.getList);
-router.post("/mail", userService.sendMail);
-router.get("/product", userService.getProduct);
+router.post("/form", userController.createForm);
+router.post("/upload", userController.uploadFile);
+router.get("/list", userController.getList);
+router.post("/mail", userController.sendMail);
+router.get("/product", userController.getProduct);
 
 module.exports = router;

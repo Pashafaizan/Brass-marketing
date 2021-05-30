@@ -25,6 +25,6 @@ app.use(express.json());
 app.use("/api/v1", routes1);
 // app.use(api/v1/routes)
 
-app.listen(port, () => {
+app.listen(7860, () => {
   console.log("your server has been started");
 });

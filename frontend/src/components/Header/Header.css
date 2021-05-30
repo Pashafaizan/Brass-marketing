@@ -1,0 +1,17 @@
+.menu_bar{
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  
+}
+.menu_bar > div{
+    font-size: larger;
+    font-weight: bold;
+}
+.menu_bar > div:hover{
+   border-bottom: 2px solid red;
+  
+    z-index: 200;
+}
