@@ -190,12 +190,12 @@ export default function Header() {
               inputProps={{ "aria-label": "search" }}
             />
           </div>
-          <div className="menu_bar">
+          {/* <div className="menu_bar">
             <div>Home</div>
             <div>Product</div>
             <div>Contact us</div>
             <div>About</div>
-          </div>
+          </div> */}
 
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
@@ -204,7 +204,7 @@ export default function Header() {
                 <Mail />
               </Badge>
             </IconButton>
-           
+
             <IconButton
               edge="end"
               aria-label="account of current user"

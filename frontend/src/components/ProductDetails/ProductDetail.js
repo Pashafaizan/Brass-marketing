@@ -4,6 +4,7 @@ import { fetchData } from "../../middleWare/requestHandler";
 import Header from "../Header/Header";
 import "./productDetail.css";
 import ProductDescription from "../ProductDescription/ProductDescription";
+import ImageCard from "../ImageCard/ImageCard";
 function ProductDetail() {
   const [product, setProduct] = useState(0);
   const { productId } = useParams();
@@ -25,6 +26,8 @@ function ProductDetail() {
       <div className="product-container">
         <div className="productDetails">
           <div className="product-left-container">
+            <ImageCard />
+
             <img
               className="product_img"
               src={`http://localhost:7860/images/${product.fileName}`}
@@ -40,15 +43,15 @@ function ProductDetail() {
             <div>Availability</div>
           </div>
         </div>
-
-        <div className="product-description">
-          <h4>Product Description</h4>
-          <ProductDescription product={product} />
-        </div>
-        <h4>Review</h4>
-
-        <div className="product-reviews"></div>
       </div>
+
+      <div className="product-description">
+        <h4>Product Description</h4>
+        <ProductDescription product={product} />
+      </div>
+      <h4>Review</h4>
+
+      <div className="product-reviews"></div>
     </div>
   );
 }
